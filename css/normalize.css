@@ -22,8 +22,6 @@ html {
 
 body {
   margin: 0;
-  color: black;
-  font-family: "Share Tech Mono", monospace;
 }
 
 /**
@@ -34,10 +32,6 @@ main {
   display: block;
 }
 
-nav > a {
-  margin-left: 1rem;
-}
-
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -46,10 +40,6 @@ nav > a {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-}
-
-p {
-  font-size: 1em;
 }
 
 /* Grouping content
@@ -184,8 +174,7 @@ textarea {
  */
 
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -195,8 +184,7 @@ input {
  */
 
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
