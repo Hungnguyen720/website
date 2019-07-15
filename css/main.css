@@ -97,262 +97,251 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-    body {
-        background-color: #072041;
-    background-image: -webkit-linear-gradient(top, #072142, #061c37, #07182b, #061220, #020b16);
-font-family: 'Cantarell', sans-serif;
-    }
-
-#job-description {
-    font-size: 1em;
+body {
+  background-color: #072041;
+  background-image: -webkit-linear-gradient(
+    top,
+    #072142,
+    #061c37,
+    #07182b,
+    #061220,
+    #020b16
+  );
+  font-family: "Cantarell", sans-serif;
 }
 
+#job-description {
+  font-size: 1em;
+}
 
-    #intro {
-        color: white;
-        position:absolute;
-        margin-left:10%;
-        margin-top:10%;
-        font-size: 3rem;
-    }
-
+#intro {
+  color: white;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 3rem;
+}
 
 body {
-    overflow: hidden;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 #name {
-    letter-spacing: .15em;
-    font-size: 1em;
+  letter-spacing: 0.15em;
+  font-size: 1em;
 }
 
 #name h1 {
-    line-height: 110%;
-    font-size: 2.5em;
+  line-height: 110%;
+  font-size: 2.5em;
 }
-
-
 
 #star-background {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    transform: scale(.7);
-    margin-left: 10vw;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  transform: scale(0.7);
+  margin-left: 10vw;
 }
 
-
-#moonlight{
-    position: relative;
-    right: -30em;
-    top: -50vh;
-    transform: scale(1.2)
+#moonlight {
+  position: relative;
+  right: -30em;
+  top: -50vh;
+  transform: scale(1.2);
 }
 
 #moon {
-    position: relative;
-    left: 56em;
-    top: 4em;
-    transform: scale(1.2)
-    
+  position: relative;
+  left: 56em;
+  top: 4em;
+  transform: scale(1.2);
 }
-
 
 #name h1 {
-    margin: 0;
+  margin: 0;
 }
 
-
-.underline{
-    display: block;
-    width: 88px;
-    height: 4px;
-    border-radius: 5px;
-    background: #ff4d5a;
-    margin-bottom: 1rem;
+.underline {
+  display: block;
+  width: 88px;
+  height: 4px;
+  border-radius: 5px;
+  background: #ff4d5a;
+  margin-bottom: 1rem;
 }
 
-.underline:nth-child(2){
-    margin-top: 5%
+.underline:nth-child(2) {
+  margin-top: 5%;
 }
 
 .underline:nth-child(3) {
-    margin-left: 54px;
+  margin-left: 54px;
 }
 
-
-
 #test {
-    position: absolute;
-    top: 0;
+  position: absolute;
+  top: 0;
 }
 
 .clouds {
-    position: relative;
+  position: relative;
 }
 
 .one {
-    top: -10em;
-    right: -60em;
+  top: -10em;
+  right: -60em;
 }
 
 .two {
-    top: 10em;
-    right: -76em;
+  top: 10em;
+  right: -76em;
 }
 
 .three {
-    top: 33em;
-    right: -70em;
-    
+  top: 33em;
+  right: -70em;
 }
 
 .four {
-    top:25em;
-    right: -35em;
+  top: 25em;
+  right: -35em;
 }
 
 .five {
-    top: 0;
-    right: -30em;
-    z-index: -1;
+  top: 0;
+  right: -30em;
+  z-index: -1;
 }
 
-.section:nth-child(3){
-    background-color: white;
+.section:nth-child(3) {
+  background-color: white;
 }
 
 #section2 {
-    height: 100vh;
+  height: 100vh;
   display: flex;
-    align-items: center;
+  align-items: center;
   justify-content: center;
-
 }
-#about-me{
-    display:flex;
-    flex-direction: row;
-    width: 95vw;
-    height: 90vh;
-    background-color: white;
-    margin-top: 2%;
-    padding: 2%
-
+#about-me {
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  height: 90vh;
+  background-color: white;
+  margin-top: 2%;
+  padding: 2%;
 }
 
-#about-me ul{
-    width: 50%;
+#about-me ul {
+  width: 50%;
 }
 
-#about-me ul li{
-    margin-top: 2.5em
+#about-me ul li {
+  margin-top: 2.5em;
 }
 
 .has-flex {
-    display: flex;
+  display: flex;
 }
 
 .has-space {
-
   justify-content: space-between;
 }
 
-.has-flex-end{
-    align-items: flex-end;
+.has-flex-end {
+  align-items: flex-end;
 }
 
 .skill-name {
-    font-size: 2.4rem;
-    color: #072142;
-    letter-spacing: 0.2em;
-    line-height: 1.2;
+  font-size: 2.4rem;
+  color: #072142;
+  letter-spacing: 0.2em;
+  line-height: 1.2;
 }
 
 .time {
-    font-size: 1.4rem;
-    line-height: 1.2;
-    color: #c0c5ca;
-    margin-left: 0.8rem;
-    letter-spacing: 0.2em;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: #c0c5ca;
+  margin-left: 0.8rem;
+  letter-spacing: 0.2em;
 }
 
 .known-percentage {
-    font-size: 2.4rem;
-    color: #072142;
-    letter-spacing: 0.2em;
-    line-height: 1.2;
+  font-size: 2.4rem;
+  color: #072142;
+  letter-spacing: 0.2em;
+  line-height: 1.2;
 }
 
 .progress-bar {
-    height: 1.4rem; 
-    width: 100%; 
-    background-color: black; 
-    border:solid 1px;
+  height: 1.4rem;
+  width: 100%;
+  background-color: black;
+  border: solid 1px;
 }
 .progress {
-    margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
-
 
 .icon {
-    width: 75px;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 2%;
+  width: 75px;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 2%;
 }
 
-.mern   {
-    background-image: url("/img/mern.jpg")
+.mern {
+  background-image: url("img/mern.jpg");
 }
 
 .sass {
-    background-image: url("/img/sass.png")
+  background-image: url("img/sass.png");
 }
 
 .js {
-    background-image: url("/img/js.png")
+  background-image: url("img/js.png");
 }
 
 .wordpress {
-    background-image: url("/img/wordpress.png")
+  background-image: url("img/wordpress.png");
 }
 
 .shopify {
-    background-image: url("/img/shopify.png")
+  background-image: url("img/shopify.png");
 }
 
 .laravel {
-    background-image: url("/img/laravel.jpg")
+  background-image: url("img/laravel.jpg");
 }
 
 .htmlcss {
-    background-image: url("/img/html.png")
+  background-image: url("img/html.png");
 }
 
-
 .jquerybs {
-    background-image: url("/img/jquery.jpg")
+  background-image: url("img/jquery.jpg");
 }
 
 .mysql {
-    background-image: url("/img/mysql.png")
+  background-image: url("img/mysql.png");
 }
 
 .php {
-    background-image: url("/img/php.png")
+  background-image: url("img/php.png");
 }
 
 .progress-bar {
-    animation-name: progress-bar;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
-
+  animation-name: progress-bar;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
 }
 /* ==========================================================================
    Helper classes
@@ -520,28 +509,26 @@ body {
   }
 }
 
-
 /* ==========================================================================
    animations
    ========================================================================== */
 
 @keyframes progress-bar {
-    0% {width: 0%;}
-100% {width: 100%;}
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 /*==================================================
 */
-@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300";
 
 /*
  FORMATTING FOR CODEPEN
 */
-
-
-
-
-
 
 /*
  BUTTON STYLING
@@ -560,8 +547,9 @@ body {
   }
 }
 
-.btn::before, .btn::after {
-  content: '';
+.btn::before,
+.btn::after {
+  content: "";
   position: absolute;
   transition: all 0.3s;
   bottom: 0;
@@ -572,9 +560,9 @@ body {
 }
 
 .btn-one::before {
-    left: 4px;
-    z-index: 1;
-  
+  left: 4px;
+  z-index: 1;
+
   opacity: 0;
   background: rgba(255, 255, 255, 0.1);
   transform: scale(0.1, 1);
@@ -591,19 +579,20 @@ body {
 }
 
 .btn-one:hover::after {
-  transform: scale(1, .1);
+  transform: scale(1, 0.1);
   opacity: 0;
 }
 
 /* BTN TWO */
-.btn-two::before, .btn-two::after {
-  content: '';
+.btn-two::before,
+.btn-two::after {
+  content: "";
   position: absolute;
   width: 100%;
-    height: 100%;
+  height: 100%;
   bottom: 0;
-    left: 0;
-    z-index: 1;
+  left: 0;
+  z-index: 1;
   transition: all 0.3s;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
@@ -613,25 +602,34 @@ body {
   animation-duration: 2s;
 }
 .btn-two:hover::before {
-  animation-name: rotateccw; 
+  animation-name: rotateccw;
   animation-duration: 3s;
 }
-.btn-two:hover::after, .btn-two:hover::before {
+.btn-two:hover::after,
+.btn-two:hover::before {
   left: 96px;
   width: 64px;
-  
+
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
 @keyframes rotatecw {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes rotateccw {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(-360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
 }
 
 /* BTN THREE */
@@ -652,7 +650,7 @@ body {
 }
 
 .btn-three:hover::after {
-  transform: scale(1, .1);
+  transform: scale(1, 0.1);
   opacity: 0;
 }
 
