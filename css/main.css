@@ -298,43 +298,43 @@ body {
 }
 
 .mern {
-  background-image: url("img/mern.jpg");
+  background-image: url("../img/mern.jpg");
 }
 
 .sass {
-  background-image: url("img/sass.png");
+  background-image: url("../img/sass.png");
 }
 
 .js {
-  background-image: url("img/js.png");
+  background-image: url("../img/js.png");
 }
 
 .wordpress {
-  background-image: url("img/wordpress.png");
+  background-image: url("../img/wordpress.png");
 }
 
 .shopify {
-  background-image: url("img/shopify.png");
+  background-image: url("../img/shopify.png");
 }
 
 .laravel {
-  background-image: url("img/laravel.jpg");
+  background-image: url("../img/laravel.jpg");
 }
 
 .htmlcss {
-  background-image: url("img/html.png");
+  background-image: url("../img/html.png");
 }
 
 .jquerybs {
-  background-image: url("img/jquery.jpg");
+  background-image: url("../img/jquery.jpg");
 }
 
 .mysql {
-  background-image: url("img/mysql.png");
+  background-image: url("../img/mysql.png");
 }
 
 .php {
-  background-image: url("img/php.png");
+  background-image: url("../img/php.png");
 }
 
 .progress-bar {
