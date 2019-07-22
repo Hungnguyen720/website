@@ -32,9 +32,9 @@
 
     -->
 	<div id="fullpage">
-			<div class="section" id="first" style="">
-				<div id="hero">
-					<div id="intro">
+			<div class="section" id="first" >
+				<div id="hero" style="display: flex; height: 100%">
+					<div id="intro" style="width: 45%">
 						<div class="slideInLeft animated" id="name">
 							<h1>HUNG<br>
 							NGUYEN</h1>
@@ -46,22 +46,41 @@
 							<span>Coder</span><br>
 							<span>Ninja</span>
 						</div>
-					</div>
-					<div id="star-background"><img src="img/star.svg"></div>
-					<div id="moon-div">
-						<div data-depth="0.5"><img id="moonlight" src="img/Moonlight.svg"></div>
-						<div data-depth="0.5"><img class="slideInRight animated" data-depth="0.5" id="moon" src="img/moon.svg"></div>
-					</div>
-					<div id="test">
-						<div data-depth="4"><img class="clouds animated slideInRight five" src="img/b_cloud01.svg"></div>
-						<div data-depth="4"><img class="clouds animated slideInRight one" src="img/b_cloud02.svg"></div>
-						<div data-depth="4"><img class="clouds animated slideInRight two" src="img/cloud1.svg"></div>
-						<div data-depth="4"><img class="clouds animated slideInRight three" src="img/cloud2.svg"></div>
-						<div data-depth="4"><img class="clouds animated slideInRight four" src="img/cloud3.svg"></div>
-					</div>
-				</div>
-			</div>
+          </div>
+          <div style="height: 100%; width: 100%;">
+					  <div id="star-background" style='background-image: url("./img/star.svg"); height: 1385px; width: 1385px; position: absolute; top:0; bottom: 0; margin: auto '>
+					  <div id="moon-div" style="height: 100%">
+						  <div data-depth="0.5" style="height: 100%">
+                <div style="background: url('./img/moonlight.svg'); height: 100%; background-size: 100%; background-repeat: no-repeat;background-position: center"></div>
+              </div>
+            </div>
+            
+              <div id="moon_img" style="position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 29.427%;
+              margin: auto;
+              height: 1385px;
+              width: 1385px;">
+              <div data-depth="0.5" >
+                <img class="slideInRight animated" data-depth="0.5" id="moon" src="img/moon.svg" style="position: absolute; top: 0; bottom: 0; margin: auto">
+              </div>
+            </div>
+          </div>
+
         
+					  <div id="test">
+						  <div data-depth="4"><img class="clouds animated slideInRight five" src="img/b_cloud01.svg"></div>
+						  <div data-depth="4"><img class="clouds animated slideInRight one" src="img/b_cloud02.svg"></div>
+						  <div data-depth="4"><img class="clouds animated slideInRight two" src="img/cloud1.svg"></div>
+						  <div data-depth="4"><img class="clouds animated slideInRight three" src="img/cloud2.svg"></div>
+						  <div data-depth="4"><img class="clouds animated slideInRight four" src="img/cloud3.svg"></div>
+            </div>
+        </div>
+				</div>
+      </div>
+      
+
 		<div class="section" id="section2">
 			<div id="about-me">
 				<div style="position: absolute">
