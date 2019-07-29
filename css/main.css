@@ -125,7 +125,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   text-align: left;
 }
 
@@ -356,8 +356,15 @@ ul li {
   background-image: url("../img/php.png");
 }
 
-.progress-bar {
-  animation-name: progress-bar;
+.progress-bar-animate {
+  animation-name: progress-bar-animate;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+}
+
+.progress-bar-remove {
+  animation-name: progress-bar-remove;
   animation-duration: 5s;
   animation-fill-mode: forwards;
   background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
@@ -532,7 +539,7 @@ ul li {
    animations
    ========================================================================== */
 
-@keyframes progress-bar {
+@keyframes progress-bar-animate {
   0% {
     width: 0%;
   }
@@ -541,6 +548,14 @@ ul li {
   }
 }
 
+@keyframes progress-bar-remove {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
 /*==================================================
 */
 @import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300";
