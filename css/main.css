@@ -539,6 +539,24 @@ ul li {
    animations
    ========================================================================== */
 
+#github_circle:hover {
+  animation-iteration-count: infinite;
+}
+
+#linkedin_circle {
+  animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 @keyframes progress-bar-animate {
   0% {
     width: 0%;
