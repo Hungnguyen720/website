@@ -310,7 +310,7 @@ ul li {
 .icon {
   width: 75px;
   height: auto;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 2%;
